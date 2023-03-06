@@ -2,25 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
-
-body {
-    background-color: coral;
-
+body{
+background-color: coral;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    color: white;
+    color:black;
 }
 
 ul {
     display: flex;
     padding: 2rem;
-    color: white;
+    color: black
 }
 
 li {
